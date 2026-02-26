@@ -4,25 +4,39 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Orderly</title>
+
   <style>
-    html, body { height: 100%; margin: 0; }
-    body{
-      display:flex;
-      align-items:center;
-      justify-content:center;
-      background:#fff;
-      padding: 6vh 6vw;
-      box-sizing: border-box;
+    html, body {
+      height: 100%;
+      margin: 0;
     }
-    img{
-      width: min(1100px, 94vw);
+
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #ffffff;
+      padding: 5vh 6vw;
+      box-sizing: border-box;
+      text-align: center;
+    }
+
+    img {
+      width: min(1200px, 95vw);
       height: auto;
-      max-height: 70vh;
-      display:block;
+      display: block;
+    }
+
+    /* Make slightly smaller on small phones */
+    @media (max-width: 480px) {
+      img {
+        width: 95vw;
+      }
     }
   </style>
 </head>
+
 <body>
-  <img src="orderly-sitelogo.png" alt="Orderly" />
+  <img src="orderly-sitelogo.png" alt="Orderly - coming soon" />
 </body>
 </html>
