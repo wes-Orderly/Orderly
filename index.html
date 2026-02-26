@@ -1,24 +1,28 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Orderly</title>
   <style>
-    html, body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
+    html, body { height: 100%; margin: 0; }
+    body{
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      background:#fff;
+      padding: 6vh 6vw;
+      box-sizing: border-box;
     }
-
-    body {
-      background-image: url('orderly-homepage.png');
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      min-height: 100vh;
+    img{
+      width: min(1100px, 94vw);
+      height: auto;
+      max-height: 70vh;
+      display:block;
     }
   </style>
 </head>
 <body>
+  <img src="orderly-sitelogo.png" alt="Orderly" />
 </body>
 </html>
